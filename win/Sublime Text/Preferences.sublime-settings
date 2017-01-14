@@ -1,0 +1,19 @@
+{
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"default_line_ending": "unix",
+	"font_size": 10,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"theme": "Boxy Nova.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"wrap_width": 160
+}
