@@ -1,0 +1,40 @@
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
+set term=xterm
+set t_Co=256
+let &t_AB="\e[48;5;%dm"
+let &t_AF="\e[38;5;%dm"
+
+" colorscheme morning
+set background=dark
+colorscheme darkblue
+
+"syntax on
+" colorscheme goodwolf
+
+autocmd FileType python setlocal completeopt-=preview
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#branch#enabled = 1
+let g:airline_powerline_fonts = 1 " https://github.com/runsisi/consolas-font-for-powerline
+
+set laststatus=2
+set tabstop=4 shiftwidth=4 softtabstop=4 noexpandtab
+set number " Установка номера строки
+set encoding=utf-8 " Установка кодировки (Cmder тоже нужно настроить на utf-8)
+set fileencodings=utf-8
+set termencoding=utf-8
+set fileformats=unix,dos "http://vim.wikia.com/wiki/File_format
+set fileformat=unix
+set backspace=indent,eol,start " Для удаления новой строки (http://vi.stackexchange.com/questions/2162/why-doesnt-the-backspace-key-work-in-insert-mode)
+
+
+" links for Vim in Windows
+" http://solar-blogg.blogspot.ca/p/vim-build.html
+" https://medium.com/@saaguero/vim-in-windows-1e0789127ed6#.anwk6ez3a
+" http://vim.1045645.n5.nabble.com/location-of-vim-directory-on-window-td1183791.html
+" https://www.reddit.com/r/vim/comments/3r6zvz/cmder_vim_syntax_highlighting/
+" http://vi.stackexchange.com/questions/3359/how-to-fix-status-bar-symbols-in-airline-plugin
+"
