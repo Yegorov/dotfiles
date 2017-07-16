@@ -1,7 +1,10 @@
 {
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"font_size": 10,
+	"auto_indent": true,
+	"auto_complete": true,
+	"auto_close_tags": true,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -15,5 +18,8 @@
 	"show_line_endings": true,
 	"theme": "Boxy Nova.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"tab_size": 2,
+	"trim_trailing_white_space_on_save": true,
+	"ensure_newline_at_eof_on_save": true,
 	"wrap_width": 160
 }
