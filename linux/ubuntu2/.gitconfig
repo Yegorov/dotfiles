@@ -1,0 +1,7 @@
+[user]
+	name = Artem
+	email = yegorov0725@yandex.ru
+[alias]
+	ci = commit
+	adog = log --all --decorate --oneline --graph
+	lg = log --color --graph --abbrev-commit        --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset'
