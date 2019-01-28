@@ -1,0 +1,18 @@
+[user]
+	name = Artem
+	email = yegorov0725@yandex.ru
+[alias]
+	ci = commit
+	adog = log --all --decorate --oneline --graph
+	lg = log --color --graph --abbrev-commit \n--pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset'
+
+[diff]
+	tool = p4merge
+[difftool]
+	prompt = false
+[difftool "p4merge"]
+	cmd = p4merge "$LOCAL" "$REMOTE"
+	keepTemporaries = true
+	trustExitCode = false
+	keepBackup = false
+
