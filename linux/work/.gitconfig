@@ -16,3 +16,5 @@
 	trustExitCode = false
 	keepBackup = false
 
+[core]
+	excludesfile = /home/artem/.gitignore_global
