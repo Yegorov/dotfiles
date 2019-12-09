@@ -1,6 +1,7 @@
 [user]
-	name = Artem
+	name = Artem Yegorov
 	email = yegorov0725@yandex.ru
+	signkey = 014AF26C2B07A4FB
 [alias]
 	ci = commit
 	adog = log --all --decorate --oneline --graph
@@ -18,3 +19,7 @@
 
 [core]
 	excludesfile = /home/artem/.gitignore_global
+[cola]
+	spellcheck = false
+[commit]
+	gpgsign = true
